@@ -3,34 +3,24 @@ import React from "react";
 import PropTypes from "prop-types";
 
 import styles from "./Homepage.module.css";
-// import { ReactComponent as Icon } from "../assets/logo.svg";
 import reactLogo from "../Homepage/logo.jpg";
 
-// const MyComponent = () => {
-//   return (
-//     <div>
-//       <Icon />
-//     </div>
-//   );
-// };
-
-export const Homepage = ({ reactLogo }) => {
+const Homepage = () => {
   return (
     <div>
-      <h1>Image in project</h1>
       <img src={reactLogo} alt="react logo" className={styles.logo} />
+
+      <h1 className={styles.header}>You are looking for...</h1>
+      <ul className={styles.list}>
+        <li className={styles.list_element}>I have lost a pet</li>
+        <li className={styles.list_element}>Pets to adopt</li>
+        <li className={styles.list_element}>Animals shelters</li>
+      </ul>
     </div>
   );
 };
 
-// function Homepage() {
-//   // Import result is the URL of your image
-//   return <img src={reactLogo} alt="Logo" />;
-// }
-
-// export default Homepage;
-
-// export default MyComponent;
 Homepage.propTypes = {
   reactLogo: PropTypes.string.isRequired,
 };
+export default Homepage;

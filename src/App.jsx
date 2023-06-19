@@ -1,16 +1,16 @@
 import React from "react";
 import { Layout } from "./components/Layout/Layout";
+import ImageComponent from "./components/ImageComponent/ImageComponent";
 // import Homepage from "./components/homepage/homepage";
-import { Homepage } from "./components/Homepage/Homepage";
+import Homepage from "./components/Homepage/Homepage";
 import "./App.css";
 
-function App() {
+const App = () => {
   return (
     <>
-      <Layout>IH</Layout>
       <Homepage></Homepage>
     </>
   );
-}
+};
 
 export default App;
