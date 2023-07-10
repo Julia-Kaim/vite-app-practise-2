@@ -1,0 +1,9 @@
+.Table_Header {
+  background-color: #bae5eb;
+  border-radius: 20px;
+  width: 400px;
+  height: 50px;
+
+  display: flex;
+  justify-content: center;
+}
