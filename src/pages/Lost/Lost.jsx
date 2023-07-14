@@ -3,6 +3,7 @@ import BasicDatePicker from "./DataPicker";
 import TextInput from "./TextInput";
 import GenderSelect from "./GenderSelect";
 import SizeSelect from "./SizeSelect";
+import IconPaw from "./ButtonImage";
 
 export const Lost = () => {
   return (
@@ -39,6 +40,7 @@ export const Lost = () => {
         <p>Features</p>
         <TextInput></TextInput>
       </div>
+      <IconPaw></IconPaw>
     </main>
   );
 };
