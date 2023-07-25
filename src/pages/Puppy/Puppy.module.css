@@ -1,0 +1,18 @@
+.Photo {
+  border: solid #cccccc 1px;
+  width: 322px;
+  height: 372px;
+  padding: 30px;
+  font-family: Playfair Display;
+  font-size: 24px;
+}
+
+.Option {
+  z-index: 3;
+  position: absolute;
+}
+
+.Modal {
+  display: flex;
+  margin: auto;
+}
