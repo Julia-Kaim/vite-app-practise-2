@@ -5,6 +5,7 @@ import PropTypes from "prop-types";
 import styles from "./Homepage.module.css";
 import reactLogo from "../Homepage/logo.jpg";
 import GroupOrientation from "./Buttons";
+import ResponsiveAppBar from "./Navbar";
 
 import CssBaseline from "@mui/material/CssBaseline";
 
@@ -25,7 +26,8 @@ export const Homepage = () => {
   return (
     <div>
       <CssBaseline />
-      <Container maxWidth="sm">
+      <Container maxWidth="xl">
+        <ResponsiveAppBar></ResponsiveAppBar>
         <img src={reactLogo} alt="react logo" className={styles.logo} />
 
         <h1 className={styles.header}>You are looking for...</h1>
